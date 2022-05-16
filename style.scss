@@ -118,6 +118,21 @@ a {
   }
 }
 
+.details-item {
+  display: flex;
+
+  div {
+    // border: 1px solid red;
+    margin-bottom: 5px;
+  }
+
+  .icon {
+    font-size: 14px;
+    // padding-top: 4px;
+    margin-right: 10px;
+  }
+}
+
 .links {
   p {
     color: $blue;

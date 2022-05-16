@@ -129,6 +129,19 @@ a {
   border-radius: 4px;
 }
 
+.details-item {
+  display: flex;
+}
+
+.details-item div {
+  margin-bottom: 5px;
+}
+
+.details-item .icon {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
 .links p {
   color: #003366;
   background-color: #fff;
