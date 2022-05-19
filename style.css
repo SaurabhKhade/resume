@@ -186,6 +186,7 @@ a {
 
 .section .text {
   line-height: 1.3em;
+  margin-left: 25px;
 }
 
 .section .content {
