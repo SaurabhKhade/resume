@@ -5,6 +5,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  font-size: 16px;
 }
 
 * {
@@ -51,7 +52,7 @@ a {
 #right {
   border-right: 1px solid black;
   width: 600px;
-  padding: 30px 30px;
+  padding: 15px 10px 15px 20px;
 }
 
 .pic {
@@ -79,7 +80,7 @@ a {
 
 .name h3 {
   text-align: center;
-  font-size: 22px;
+  font-size: 1.4rem;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -108,7 +109,7 @@ a {
 .links p,
 .skills p,
 .certificates p {
-  line-height: 1.4em;
+  line-height: 1.2em;
 }
 
 .details .content,
@@ -138,7 +139,6 @@ a {
 }
 
 .details-item .icon {
-  font-size: 14px;
   margin-right: 10px;
 }
 
@@ -148,7 +148,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 28px;
+  font-size: 1.7rem;
   width: 42px;
   height: 42px;
 }
@@ -169,7 +169,7 @@ a {
 }
 
 .certificates .content p {
-  font-size: 0.9em;
+  font-size: 0.85rem;
   border: none;
   padding: 0;
   font-weight: normal;
@@ -177,15 +177,16 @@ a {
 }
 
 .section {
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 }
 
 .section .title {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  font-size: 1.05rem;
 }
 
 .section .text {
-  line-height: 1.3em;
+  line-height: 1.2em;
   margin-left: 25px;
 }
 
@@ -202,7 +203,7 @@ a {
 
 .section .sub-title {
   font-weight: bold;
-  font-size: 1.04em;
+  font-size: 1.07em;
 }
 
 .section .time-range {
@@ -213,5 +214,9 @@ a {
 .section .link:hover {
   color: #0059b3;
   text-decoration: underline;
+}
+
+.section .tech-stack {
+  font-size: 0.9em;
 }
 /*# sourceMappingURL=style.css.map */

@@ -9,6 +9,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  font-size: 16px;
 }
 
 * {
@@ -56,7 +57,7 @@ a {
 #right {
   border-right: 1px solid black;
   width: 600px;
-  padding: 30px 30px;
+  padding: 15px 10px 15px 20px;
 }
 
 .pic {
@@ -80,9 +81,10 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  // font-size: 1.5rem;
   h3 {
     text-align: center;
-    font-size: 22px;
+    font-size: 1.4rem;
     text-shadow: $blue-shadow;
   }
   hr {
@@ -97,13 +99,14 @@ a {
 .skills,
 .certificates {
   margin: 20px 0 10px 40px;
+  // font-size: 1.5rem;
   h3 {
     padding-bottom: 10px;
     text-shadow: $blue-shadow;
     // text-decoration: underline;
   }
   p {
-    line-height: 1.4em;
+    line-height: 1.2em;
   }
   .content {
     display: flex;
@@ -127,7 +130,7 @@ a {
   }
 
   .icon {
-    font-size: 14px;
+    // font-size: 1.5rem;
     // padding-top: 4px;
     margin-right: 10px;
   }
@@ -140,7 +143,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 28px;
+    font-size: 1.7rem;
     width: 42px;
     height: 42px;
   }
@@ -160,7 +163,7 @@ a {
       // font-size: 0.97em;
     }
     p {
-      font-size: 0.9em;
+      font-size: 0.85rem;
       border: none;
       padding: 0;
       font-weight: normal;
@@ -192,12 +195,13 @@ a {
 // }
 
 .section {
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   .title {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    font-size: 1.05rem;
   }
   .text {
-    line-height: 1.3em;
+    line-height: 1.2em;
     margin-left: 25px;
   }
   .content {
@@ -211,7 +215,7 @@ a {
   }
   .sub-title {
     font-weight: bold;
-    font-size: 1.04em;
+    font-size: 1.07em;
   }
   .time-range {
     color: hsl(0, 0%, 35%);
@@ -222,5 +226,8 @@ a {
       color: lighten($blue, 15);
       text-decoration: underline;
     }
+  }
+  .tech-stack {
+    font-size: 0.9em;
   }
 }
