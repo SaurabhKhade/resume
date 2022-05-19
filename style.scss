@@ -217,7 +217,9 @@ a {
     font-style: italic;
   }
   .link {
-    color: lighten($blue, 15);
-    text-decoration: underline;
+    &:hover {
+      color: lighten($blue, 15);
+      text-decoration: underline;
+    }
   }
 }

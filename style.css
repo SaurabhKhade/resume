@@ -209,7 +209,7 @@ a {
   font-style: italic;
 }
 
-.section .link {
+.section .link:hover {
   color: #0059b3;
   text-decoration: underline;
 }
