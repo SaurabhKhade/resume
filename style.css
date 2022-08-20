@@ -14,7 +14,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 *:focus, *:hover {
   outline: none;
 }
@@ -45,7 +44,7 @@ a {
 #left {
   border-left: 1px solid black;
   width: 400px;
-  background-color: #003366;
+  background-color: hsl(210deg, 100%, 20%);
   color: white;
 }
 
@@ -64,7 +63,6 @@ a {
   background-color: #fff;
   padding: 1.3px;
 }
-
 .pic img {
   width: 100%;
   height: 100%;
@@ -77,13 +75,11 @@ a {
   align-items: center;
   gap: 10px;
 }
-
 .name h3 {
   text-align: center;
   font-size: 1.4rem;
   text-shadow: 2px 2px 2px black;
 }
-
 .name hr {
   width: 100px;
   border-color: white;
@@ -96,7 +92,6 @@ a {
 .certificates {
   margin: 20px 0 10px 40px;
 }
-
 .details h3,
 .links h3,
 .skills h3,
@@ -104,14 +99,12 @@ a {
   padding-bottom: 10px;
   text-shadow: 2px 2px 2px black;
 }
-
 .details p,
 .links p,
 .skills p,
 .certificates p {
   line-height: 1.2em;
 }
-
 .details .content,
 .links .content,
 .skills .content,
@@ -120,7 +113,6 @@ a {
   gap: 10px;
   flex-wrap: wrap;
 }
-
 .details .content p,
 .links .content p,
 .skills .content p,
@@ -133,17 +125,15 @@ a {
 .details-item {
   display: flex;
 }
-
 .details-item div {
   margin-bottom: 5px;
 }
-
 .details-item .icon {
   margin-right: 10px;
 }
 
 .links p {
-  color: #003366;
+  color: hsl(210deg, 100%, 20%);
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -152,7 +142,6 @@ a {
   width: 42px;
   height: 42px;
 }
-
 .links .iconify {
   margin-top: 10px;
 }
@@ -160,14 +149,12 @@ a {
 .certificates .content {
   flex-direction: column;
 }
-
 .certificates .content ul {
   padding-left: 15px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-
 .certificates .content p {
   font-size: 0.85rem;
   border: none;
@@ -176,47 +163,43 @@ a {
   font-style: italic;
 }
 
+.activities p {
+  font-style: normal !important;
+  font-size: 1.001em !important;
+}
+
 .section {
   padding-bottom: 5px;
 }
-
 .section .title {
   margin-bottom: 5px;
   font-size: 1.05rem;
 }
-
 .section .text {
   line-height: 1.2em;
   margin-left: 25px;
 }
-
 .section .content {
   padding-left: 15px;
 }
-
 .section .sub-content {
   display: flex;
   flex-direction: column;
   gap: 5px;
   margin-bottom: 10px;
 }
-
 .section .sub-title {
   font-weight: bold;
   font-size: 1.07em;
 }
-
 .section .time-range {
-  color: #595959;
+  color: hsl(0deg, 0%, 35%);
   font-style: italic;
 }
-
 .section .link:hover {
   color: #0059b3;
   text-decoration: underline;
 }
-
 .section .tech-stack {
   font-size: 0.9em;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
