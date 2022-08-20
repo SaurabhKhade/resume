@@ -57,7 +57,7 @@ a {
 #right {
   border-right: 1px solid black;
   width: 600px;
-  padding: 15px 10px 15px 20px;
+  padding: 10px 20px;
 }
 
 .pic {
@@ -209,6 +209,12 @@ a {
   }
   .content {
     padding-left: 15px;
+    margin-top: 10px;
+    border-bottom: 0.7px solid hsla(0, 0%, 50%, 0.4);
+
+    &:last-of-type {
+      border-bottom: none;
+    }
   }
   .sub-content {
     display: flex;
